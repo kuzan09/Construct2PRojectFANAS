@@ -354,11 +354,13 @@
         <layout>home.xml</layout>
         <layout>home_2.xml</layout>
         <layout>susun_1.xml</layout>
+        <layout>word_wall_1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>home_event.xml</event-sheet>
         <event-sheet>home_2_event.xml</event-sheet>
         <event-sheet>susun_1_event.xml</event-sheet>
+        <event-sheet>word_wall_1_event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="6">
