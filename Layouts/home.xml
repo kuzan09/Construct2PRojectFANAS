@@ -132,8 +132,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>634</x>
-                        <y>423</y>
+                        <x>965.314147949</x>
+                        <y>526</y>
                         <z>0</z>
                         <width>600</width>
                         <height>300</height>
@@ -169,13 +169,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< Updated upstream
-                        <x>1081</x>
-                        <y>500</y>
-=======
                         <x>941</x>
-                        <y>100</y>
->>>>>>> Stashed changes
+                        <y>749</y>
                         <z>0</z>
                         <width>600</width>
                         <height>300</height>
