@@ -169,8 +169,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
+<<<<<<< Updated upstream
                         <x>1081</x>
                         <y>500</y>
+=======
+                        <x>941</x>
+                        <y>100</y>
+>>>>>>> Stashed changes
                         <z>0</z>
                         <width>600</width>
                         <height>300</height>
