@@ -10,9 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">home</layout>
+        <layout active="1" order="0">home</layout>
         <layout order="1">home_2</layout>
-        <layout active="1" order="2">susun_1</layout>
+        <layout order="2">susun_1</layout>
         <event-sheet order="3">home_event</event-sheet>
         <event-sheet order="4">home_2_event</event-sheet>
         <event-sheet order="5">susun_1_event</event-sheet>
