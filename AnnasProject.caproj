@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>AnnasProject</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">Edge</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="main_menu" sid="192711397074097">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610943413989783" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\annnas\main_menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background" sid="421087420820976">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="747525069395882" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\annnas\background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="main_menu2" sid="803845917364071">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="830869635214001" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\annnas\main_menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="title" sid="286978354260808">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="400928391845809">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="548008699137757" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\annnas\title.png">
+                        <collision-poly>
+                            <point x="0.236692" y="0.51875" />
+                            <point x="0.5" y="0.0645833" />
+                            <point x="0.781369" y="0.479167" />
+                            <point x="0.792776" y="0.5" />
+                            <point x="0.811787" y="0.5875" />
+                            <point x="0.5" y="0.864583" />
+                            <point x="0.279468" y="0.3875" />
+                            <point x="0.288973" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="play" sid="620191944977013">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="945248820668051">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589522100608194" speed="5">
+                    <frame duration="1" hotspotX="0.500524" hotspotY="0.50104" original-source="D:\annnas\play.png">
+                        <collision-poly>
+                            <point x="0.158115" y="0.313929" />
+                            <point x="0.499476" y="0.305613" />
+                            <point x="0.8" y="0.397089" />
+                            <point x="0.815707" y="0.49896" />
+                            <point x="0.8" y="0.602911" />
+                            <point x="0.499476" y="0.696466" />
+                            <point x="0.157068" y="0.68815" />
+                            <point x="0.0816754" y="0.49896" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="exit" sid="386915071248664">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="647483466552657">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="276492934493535" speed="5">
+                    <frame duration="1" hotspotX="0.500519" hotspotY="0.50104" original-source="D:\annnas\exit.png">
+                        <collision-poly>
+                            <point x="0.170301" y="0.340956" />
+                            <point x="0.499481" y="0.305613" />
+                            <point x="0.820353" y="0.359667" />
+                            <point x="0.852544" y="0.49896" />
+                            <point x="0.820353" y="0.640333" />
+                            <point x="0.499481" y="0.696466" />
+                            <point x="0.170301" y="0.659044" />
+                            <point x="0.124611" y="0.49896" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="joystick" sid="763331330617457">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="315039146025544">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640444514633981" speed="5">
+                    <frame duration="1" hotspotX="0.500722" hotspotY="0.5" original-source="D:\annnas\joystick.png">
+                        <collision-poly>
+                            <point x="0.199134" y="0.2875" />
+                            <point x="0.499278" y="0.154167" />
+                            <point x="0.74026" y="0.375" />
+                            <point x="0.764791" y="0.5" />
+                            <point x="0.718615" y="0.59375" />
+                            <point x="0.499278" y="0.452083" />
+                            <point x="0.197691" y="0.714583" />
+                            <point x="0.186147" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dinosaurus" sid="737404421386174">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="169983067700520">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="681806039606910" speed="5">
+                    <frame duration="1" hotspotX="0.500942" hotspotY="0.5" original-source="D:\annnas\dinosaurus.png">
+                        <collision-poly>
+                            <point x="0.276836" y="0.241776" />
+                            <point x="0.499058" y="0.254934" />
+                            <point x="0.574388" y="0.371711" />
+                            <point x="0.600753" y="0.5" />
+                            <point x="0.702448" y="0.740132" />
+                            <point x="0.499058" y="0.815789" />
+                            <point x="0.250471" y="0.78125" />
+                            <point x="0.135593" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="582342189480183">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="susunkata" sid="364471975385899">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="619674521845789">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="690655590709178" speed="5">
+                    <frame duration="1" hotspotX="0.500543" hotspotY="0.500904" original-source="D:\annnas\susunkata.png">
+                        <collision-poly>
+                            <point x="0.192182" y="0.320072" />
+                            <point x="0.499457" y="0.318264" />
+                            <point x="0.795874" y="0.339964" />
+                            <point x="0.852334" y="0.499096" />
+                            <point x="0.786102" y="0.643761" />
+                            <point x="0.205212" y="0.658228" />
+                            <point x="0.0912052" y="0.499096" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="word_wall" sid="449332509642237">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="273409509469914">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="711657763568639" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501002" original-source="D:\annnas\word_wall.png">
+                        <collision-poly>
+                            <point x="0.184265" y="0.356713" />
+                            <point x="0.5" y="0.294589" />
+                            <point x="0.833333" y="0.322645" />
+                            <point x="0.883023" y="0.498998" />
+                            <point x="0.820911" y="0.653307" />
+                            <point x="0.5" y="0.671343" />
+                            <point x="0.194617" y="0.623246" />
+                            <point x="0.158385" y="0.498998" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="alfabet" sid="828010458680256">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="362569551973439" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="26" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101717427947504" speed="5">
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\A.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\B.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\C.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\D.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\E.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\F.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\G.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\H.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\I.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\J.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\K.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\L.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\M.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\N.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\O.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\P.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\Q.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\R.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\S.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\T.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\U.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.5" original-source="D:\annnas\asset\ALFABET\V.png" />
+                    <frame duration="1" hotspotX="0.500589" hotspotY="0.500573" original-source="D:\annnas\asset\ALFABET\W.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.500542" original-source="D:\annnas\asset\ALFABET\X.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.500542" original-source="D:\annnas\asset\ALFABET\Y.png" />
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.500542" original-source="D:\annnas\asset\ALFABET\Z.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background2" sid="722976808933604">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="253972555866617" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\annnas\background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="avatar" sid="913614294071523">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="980598281308118" speed="5">
+                    <frame duration="1" hotspotX="0.477535" hotspotY="0.482341" original-source="D:\annnas\ava bener.png" />
+                    <frame duration="1" hotspotX="0.485237" hotspotY="0.482341" original-source="D:\annnas\ava biasa.png" />
+                    <frame duration="1" hotspotX="0.485199" hotspotY="0.481818" original-source="D:\annnas\ava salah.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back" sid="443748770555696">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491523892219065" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\annnas\back.png">
+                        <collision-poly>
+                            <point x="0.217514" y="0.413978" />
+                            <point x="0.5" y="0.215054" />
+                            <point x="0.853107" y="0.27957" />
+                            <point x="0.853107" y="0.72043" />
+                            <point x="0.5" y="0.806452" />
+                            <point x="0.214689" y="0.591398" />
+                            <point x="0.19209" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TEMPATHURUF" sid="282858984248785">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141034733602577" speed="5">
+                    <frame duration="1" hotspotX="0.500592" hotspotY="0.500592" original-source="D:\annnas\asset\TEMPAT HURUF.png">
+                        <collision-poly>
+                            <point x="0.0366864" y="0.0366864" />
+                            <point x="0.499408" y="0" />
+                            <point x="0.963314" y="0.0366864" />
+                            <point x="1" y="0.499408" />
+                            <point x="0.963314" y="0.963314" />
+                            <point x="0.499408" y="1" />
+                            <point x="0.0366864" y="0.963314" />
+                            <point x="0" y="0.499408" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TEMPATJAWABAN" sid="252099820834234">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="342667516015683" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491092183019737" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500593" original-source="D:\annnas\asset\TEMPAT JAWABAN.png">
+                        <collision-poly>
+                            <point x="0.0534442" y="0.0533808" />
+                            <point x="0.5" y="0.00118624" />
+                            <point x="0.95962" y="0.0403321" />
+                            <point x="1" y="0.499407" />
+                            <point x="0.960808" y="0.960854" />
+                            <point x="0.5" y="0.983393" />
+                            <point x="0.0534442" y="0.946619" />
+                            <point x="0.0190024" y="0.499407" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>home.xml</layout>
+        <layout>home_2.xml</layout>
+        <layout>susun_1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>home_event.xml</event-sheet>
+        <event-sheet>home_2_event.xml</event-sheet>
+        <event-sheet>susun_1_event.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="6">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
